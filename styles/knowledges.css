@@ -1,0 +1,52 @@
+.knowledges {
+    color: var(--primary-color);
+    padding: 2rem 0 4rem;
+    display: block;
+}
+
+.knowledges-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.knowledges-subtitle {
+    text-align: center;
+    margin-bottom: 5.5rem;
+}
+
+
+
+.knowledges-grid {
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+}
+
+.knowledges-data {
+    width: 80px;
+    height: 100px;
+    place-items: center;
+    margin-bottom: 1rem;
+    display: grid;
+}
+
+.knowledges-data img{
+    width: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.knowledges-name {
+    font-size: 0.813rem;
+    margin-bottom: 0.25rem;
+    color: #fff;
+}
+
+.knowledges-lvl {
+    font-size: 0.75rem;
+    color: #849bbe;
+}
