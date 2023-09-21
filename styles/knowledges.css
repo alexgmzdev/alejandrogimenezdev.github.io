@@ -20,11 +20,13 @@
 
 .knowledges-grid {
     height: max-content;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem 2rem;
 }
 
 .knowledges-data {
-    width: 80px;
     height: 100px;
     place-items: center;
     margin-bottom: 1rem;
@@ -50,3 +52,11 @@ img {
     font-size: 0.75rem;
     color: #849bbe;
 }
+
+#efecto:hover {
+    -webkit-transform: rotateY(180deg);
+    -webkit-transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+    
