@@ -1,6 +1,7 @@
 .inicio{
     text-align: center;
     color: var(--primary-color);
+    background-color: var(--background-color);
 }
 
 .inicio-titulo-texto{
@@ -53,6 +54,7 @@ h1.titulo{
         justify-content: space-between;
         max-width: 980px;
         margin: 0 auto;
+        background-color: var(--background-color);
     }
     
     .inicio-titulo-texto{
