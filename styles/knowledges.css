@@ -2,6 +2,7 @@
     color: var(--primary-color);
     padding: 2rem 0 4rem;
     display: block;
+    background-color: var(--background-color);
 }
 
 .knowledges-title {
