@@ -1,0 +1,32 @@
+.proyects{
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    padding: 2rem 0 4rem;
+    display: block;
+}
+
+.proyects-titulo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+#bl-one{
+    margin-left: 50px;
+}
+
+.sbt-pr-one{
+    margin-left: 150px;
+    
+}
+
+.img-pr-uno {
+    width: 400px;
+}
+
+@media screen and (max-width: 960px){
+    .img-pr-uno {
+        width: 500px;
+    }
+}
