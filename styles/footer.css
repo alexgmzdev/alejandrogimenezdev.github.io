@@ -17,6 +17,7 @@
 .pie-pagina .grupo-1 .box figure{
     width: 100%;
     height: 100%;
+    margin-left: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +47,7 @@
     line-height: 45px;
     color: #fff;
     margin-right: 10px;
+    margin-bottom: 10px;
     background-color: #0d2033;
     text-align: center;
     transition: all 300ms ease;

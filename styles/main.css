@@ -2,6 +2,8 @@
     --primary-color: #fff;
     --secundary-color: #ff3a2c;
     --background-color: #131313;
+    --situation-color-progress: #F7FF00;
+    --situation-color-finished: #00FF08;
 }
 
 
@@ -29,14 +31,14 @@
 
 @media (min-width: 950px) {
     .horizontal-padding {
-      padding-left: 70px;
-      padding-right: 70px;
-      background: var(--background-color);
+        padding-left: 70px;
+        padding-right: 70px;
+        background: var(--background-color);
     }
     .vertical-padding {
-      padding-top: 70px;
-      padding-bottom: 70px;
-      background: var(--background-color);
+        padding-top: 70px;
+        padding-bottom: 70px;
+        background: var(--background-color);
     }
 }
 

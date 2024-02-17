@@ -103,8 +103,8 @@
 }
 
 #navbar__links:hover{
-   color: #ff3a2c; 
-   transition: all 0.3 ease;
+    color: #ff3a2c; 
+    transition: all 0.3 ease;
 }
 
 
@@ -150,17 +150,17 @@
     }
 
     .navbar__toggle .bar{
-       width: 25px; 
-       height: 3px;
-       margin: 5px auto;
-       transition: all 0.3 ease-in-out;
-       background: #fff;
-       display: block;
-       cursor: pointer;
+        width: 25px; 
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3 ease-in-out;
+        background: #fff;
+        display: block;
+        cursor: pointer;
     }
 
     .navbar__item{
-      width: 100%;  
+        width: 100%;  
     }
 
     .navbar__links{

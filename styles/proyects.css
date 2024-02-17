@@ -10,6 +10,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    
 }
 
 #bl-one{
@@ -18,15 +19,44 @@
 
 .sbt-pr-one{
     margin-left: 150px;
-    
+    padding-bottom: 10px;
 }
 
 .img-pr-uno {
     width: 400px;
+    padding-bottom: 10px;
+}
+
+.proyecto-uno-situacion{
+    margin-left: 130px;
+    color: var(--situation-color-progress);
 }
 
 @media screen and (max-width: 960px){
+    .proyects-titulo{
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+
+    .sbt-pr-one{
+        margin-left: 130px;
+        padding-bottom: 10px;
+    }
+
+
     .img-pr-uno {
-        width: 500px;
+        width: 400px;
+        padding-bottom: 10px;
+    }
+    
+    #bl-one{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .proyecto-uno-situacion{
+        color: var(--situation-color-progress);
     }
 }
