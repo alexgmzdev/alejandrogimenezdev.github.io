@@ -143,6 +143,11 @@
         /*margin-right: 24.5rem;*/
     }
 
+    #plb-proyectos{
+        text-decoration: none;
+        cursor: pointer;
+    }
+
     .abt-info-title {
         display: block;
         text-align: center;
