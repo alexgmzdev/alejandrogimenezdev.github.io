@@ -32,6 +32,8 @@ h1.titulo{
     width: 80%;
     max-width: 300px;
     text-align: center;
+    border: 2px solid white;
+    border-radius: 5px 5px 5px;
 }
 
 #mi-imagen{

@@ -21,9 +21,154 @@
     border: solid thin #fff;
 }
 
-body.active {
-    background-color: #f5f5f5;
-    /*color:#000;*/
+/***************LIGHTMODE FOR BACKGROUND-FRAME************/
+
+body.active .horizontal-padding{
+    background: var(--background-lightmode);
+}
+
+body.active .vertical-padding{
+    background: var(--background-lightmode);
+}
+
+/***************LIGHTMODE FOR NAVBAR************/
+
+body.active .navbar{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active .navbar__container{
+    background-color: var(--lightmode-navbar);
+}
+
+body.active #navbar__logoimg{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active #navbar__titulo{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active #navbar__titulo:hover{
+    color: #ff3a2c; 
+    transition: all 0.3s ease;
+}
+
+body.active #navbar__links{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active #navbar__links:hover{
+    color: #ff3a2c; 
+    transition: all 0.3s ease;
+}
+
+body.active .navbar__menu{
+    background-color: var(--lightmode-navbar);
+}
+
+/***************LIGHTMODE FOR INICIO SECTION************/
+
+body.active .inicio{
+    color: var(--lightmode-letters);
+    background-color: var(--background-lightmode);
+}
+
+body.active .inicio-titulo-texto{
+    background-color: var(--background-lightmode);
+}
+
+body.active .inicio-titulo-texto p {
+    background-color: var(--background-lightmode);
+}
+
+body.active .inicio-titulo-texto p i {
+    background-color: var(--background-lightmode);
+}
+
+body.active #mi-imagen{
+    background-color: var(--background-lightmode);
+}
+
+body.active .mi-imagen{
+    border: 2px solid black;
+    border-radius: 5px 5px 5px;
+}
+
+body.active #mobile-menu{
+    background-color: var(--lightmode-letters);
+}
+
+/***************LIGHTMODE FOR ABOUT ME SECTION************/
+
+body.active #about-me{
+    background-color: var(--background-lightmode);
+    color: var(--lightmode-letters);
+}
+
+body.active #about-me .img-abtme{
+    box-shadow: 5px 5px 20px #000;
+}
+
+/***************LIGHTMODE FOR KNOWLEDGES SECTION************/
+
+body.active #knowledges{
+    background-color: var(--background-lightmode);
+    color: var(--lightmode-letters)
+}
+
+body.active #knowledges h3{
+    color: black;
+}
+
+body.active #knowledges .knowledges-lvl{
+    color: #012a69;
+}
+
+/***************LIGHTMODE FOR PROYECTS SECTION************/
+
+body.active #proyectos{
+    background-color: var(--background-lightmode);
+    color: var(--lightmode-letters);
+}
+
+body.active #proyectos .proyecto-uno-situacion{
+    color: #7f8228;
+}
+
+/***************LIGHTMODE FOR CONTACT SECTION************/
+
+body.active #contacto{
+    background-color: var(--background-lightmode);
+    color: var(--lightmode-letters);
+}
+
+body.active .input-box{
+    background-color: var(--background-color);
+}
+
+/***************LIGHTMODE FOR FOOTER SECTION************/
+
+body.active .pie-pagina{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active .pie-pagina .grupo-1 .box h2{
+    color: var(--lightmode-letters);
+}
+
+body.active .pie-pagina .grupo-1 .box p{
+    color: var(--lightmode-letters);
+}
+
+body.active .pie-pagina .grupo-2{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
 }
 
 @media (min-width: 950px) {

@@ -4,6 +4,9 @@
     --background-color: #131313;
     --situation-color-progress: #F7FF00;
     --situation-color-finished: #00FF08;
+    --background-lightmode: #E0E1D5;
+    --lightmode-navbar: #CBCBCB;
+    --lightmode-letters: #2E2E2D;
 }
 
 
@@ -15,6 +18,10 @@
     /*padding-top: 70px;*/
     /*background: var(--background-color);*/
     /*font-family: ;*/
+}
+
+body.active {
+    background-color: var(--background-lightmode);
 }
 
 .horizontal-padding{

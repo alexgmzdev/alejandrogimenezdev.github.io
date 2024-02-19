@@ -32,6 +32,8 @@
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
+    box-shadow: 5px 5px 5px #fff;
+    
 }
 
 .abt-text {
