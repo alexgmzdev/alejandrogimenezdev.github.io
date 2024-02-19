@@ -9,6 +9,7 @@
     <!--ASOCIACION DE ESTILOS-->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/lg-dkmode.css">
     <link rel="stylesheet" href="styles/inicio.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/knowledges.css">
@@ -61,20 +62,20 @@
                 <li class="navbar__item">
                     <a href="#contacto" id="navbar__links">Contacto</a>
                 </li>
-                <li class="navbar__btn">
-                    <a href="#" class="navbar__idioma">
-                        <img class="bandera" src="media/usa-flag.png" alt="Clicka para cambiar el idioma!">
-                    </a>
+                <li class="switch" id="switch">
+                    <i class="bi bi-brightness-high-fill"></i>
+                    <i class="bi bi-moon-fill"></i>
                 </li>
             </ul>
         </div>
     </nav>
+    <script src="script-lgdkmode.js"></script>
     <!--FIN BARRA DE NAVEGACION-->
     <div class="horizontal-padding vertical-padding">
         <section class="inicio" id="inicio">
             <div class="inicio-titulo-texto">
                 <h1 class="titulo">Hola, soy <br /> Alejandro Gimenez</h1>
-                <p class="inicio-texto">Explora y descubre a través de esta web mis proyectos de programación, 
+                <p class="inicio-texto">Explora y descubre a través de esta web mis proyectos de programación,
                     también si lo deseas puedes encontrar</p>
                 <p class="inicio-texto">un poco más de información sobre mí. A través de la web puedes contactarme, si
                     te gusta mi trabajo, ¡no dudes en hacerlo!</p>
@@ -98,7 +99,8 @@
                     <p class="abt-text">Estudiante de desarrollo de Software, fotógrafo y videografo
                         titulado. He tenido mi propia exposición fotográfica "Evolución Retratista". <br>
                         Actualmente me encuentro desarrollando aplicaciones con el IDE Android Studio mediante
-                        el uso de Kotlin como lenguaje. Más abajo en <a href="#proyectos" id="plb-proyectos">"Proyectos"</a> puedes encontrar
+                        el uso de Kotlin como lenguaje. Más abajo en <a href="#proyectos"
+                            id="plb-proyectos">"Proyectos"</a> puedes encontrar
                         algunas de estas aplicaciones.
                     </p>
                     <div class="abt-info">

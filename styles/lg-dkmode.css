@@ -1,0 +1,31 @@
+.switch i {
+    font-size: 1rem;
+    color: #fbff00;
+}
+
+.navbar__menu li:last-child::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: solid thin #000;
+    left: unset;
+    right: 0;
+}
+
+.navbar__menu li:last-child.active::before{
+    right: unset;
+    left: 0;
+    border: solid thin #fff;
+}
+
+body.active {
+    background-color: #f5f5f5;
+    /*color:#000;*/
+}
+
+@media (min-width: 950px) {
+
+}
