@@ -56,13 +56,53 @@ body.active #navbar__titulo:hover{
     color: #ff3a2c; 
     transition: all 0.3s ease;
 }
-
+/*INICIO LINKS NAVBAR*/
 body.active #navbar__links{
     background-color: var(--lightmode-navbar);
     color: var(--lightmode-letters);
 }
 
+body.active #navbar__links_two{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active #navbar__links_three{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active #navbar__links_four{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
+body.active #navbar__links_five{
+    background-color: var(--lightmode-navbar);
+    color: var(--lightmode-letters);
+}
+
 body.active #navbar__links:hover{
+    color: #ff3a2c; 
+    transition: all 0.3s ease;
+}
+
+body.active #navbar__links_two:hover{
+    color: #ff3a2c; 
+    transition: all 0.3s ease;
+}
+
+body.active #navbar__links_three:hover{
+    color: #ff3a2c; 
+    transition: all 0.3s ease;
+}
+
+body.active #navbar__links_four:hover{
+    color: #ff3a2c; 
+    transition: all 0.3s ease;
+}
+
+body.active #navbar__links_five:hover{
     color: #ff3a2c; 
     transition: all 0.3s ease;
 }
