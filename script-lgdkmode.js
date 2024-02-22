@@ -15,6 +15,8 @@ swith.addEventListener("click", e => {
 //Obtengo modo actual
 if(localStorage.getItem('light-mode')==='true'){
     document.body.classList.add("active");
+    swith.classList.add("active");
 } else{
     document.body.classList.remove("active");
+    swith.classList.remove("active");
 }
