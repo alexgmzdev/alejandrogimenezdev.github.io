@@ -57,6 +57,7 @@
     }
 
     .proyecto-uno-situacion{
+        margin-left: 130px;
         color: var(--situation-color-progress);
     }
 }
