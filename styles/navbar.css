@@ -264,10 +264,13 @@
         border-radius: 100px;
         border: #333 solid 2px;
         background-color: #1e1f1b;
-        margin-left: 180px;
-        margin-bottom: 30px;
+        margin-left: 0;
+        margin-bottom: 0;
     }
 
+    #switch{
+        margin-right: 20px;
+    }
 
     #mobile-menu.is-active .bar:nth-child(2){
         opacity: 0;
