@@ -202,7 +202,7 @@
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
 
     .navbar__menu.active {
@@ -265,7 +265,7 @@
         border-radius: 100px;
         border: #333 solid 2px;
         background-color: #1e1f1b;
-        margin-left: 180px;
+        margin-left: 165px;
         margin-bottom: 30px;
     }
 

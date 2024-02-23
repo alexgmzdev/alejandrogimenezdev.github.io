@@ -38,6 +38,10 @@ body.active .navbar{
     color: var(--lightmode-letters);
 }
 
+body.active .navbar__toggle{
+    background-color: var(--lightmode-navbar);
+}
+
 body.active .navbar__container{
     background-color: var(--lightmode-navbar);
 }
@@ -139,9 +143,6 @@ body.active .mi-imagen{
     border-radius: 5px 5px 5px;
 }
 
-body.active #mobile-menu{
-    background-color: var(--lightmode-letters);
-}
 
 /***************LIGHTMODE FOR ABOUT ME SECTION************/
 
