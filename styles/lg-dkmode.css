@@ -154,6 +154,10 @@ body.active #about-me .img-abtme{
     box-shadow: 5px 5px 20px #000;
 }
 
+body.active #enlace-proyectos{
+    color: var(--lightmode-letters);
+}
+
 /***************LIGHTMODE FOR KNOWLEDGES SECTION************/
 
 body.active #knowledges{
