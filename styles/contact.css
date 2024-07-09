@@ -2,7 +2,10 @@
     background-color: var(--background-color);
     color: var(--primary-color);
     padding: 2rem 0 4rem;
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-me-title{
