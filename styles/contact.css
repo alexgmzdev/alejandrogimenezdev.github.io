@@ -17,13 +17,16 @@
 }
 
 .form-div {
-    display:flex;
+    display: flex;
     flex-direction: column;
     text-align: center;
+    width: 800px;
+    align-content: center;
 }
 
 form{
-    gap:15px;
+    display: grid;
+    gap: 15px;
 }
 
 .input-box {
@@ -116,11 +119,12 @@ form > button:hover,
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: auto;
+        width: 800px;
         align-content: center;
     }
     
     form{
+        display: grid;
         gap: 15px;
     }
 }
